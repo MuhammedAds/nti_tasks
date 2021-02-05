@@ -373,3 +373,24 @@ textarea {
   font-size: 16px;
   margin: 3% 38%;
 }
+.awesome {
+  height: 500px;
+}
+.awesome .top h1 {
+  font-size: 35px;
+  color: black;
+  padding: 2% 28%;
+}
+.awesome .top hr {
+  width: 22%;
+  height: 4px;
+  border: none;
+  background-color: #ff9b51;
+  padding: 0% 0%;
+  margin: 1% 32%;
+}
+.awesome .top p {
+  font-size: 20px;
+  color: black;
+  margin: 6% 25%;
+}
