@@ -202,10 +202,11 @@ ul {
 .show{
   padding: 70px 20px;
 }
-.hidden{
-  transition: top 0.1s ease;
+.content.hidden{
+  top: 100%;
+  transition: all 1s ease-in;
 }
-.content-col :hover + .hidden {
+.content :hover + .hidden {
   top: 0;
 }
 .our-work .title h2 ::before {
@@ -256,4 +257,84 @@ ul {
 }
 .changable :hover + .hover {
   transform: scale(1,1);
+}
+.team .title h2 ::before {
+  width: 40px;
+  height: 3px;
+  background-color: #0c65ed;
+  right: -16%;
+  top: 40%;
+  position: absolute;
+  content: "";
+}
+.team .title h2 ::after {
+  width: 40px;
+  height: 3px;
+  background-color: #0c65ed;
+  left: -16%;
+  top: 40%;
+  position: absolute;
+  content: "";
+}
+.team .title h2::before {
+  width: 75px;
+  height: 2px;
+  background-color: #0c65ed;
+  right: -26%;
+  top: 60%;
+  position: absolute;
+  content: "";
+}
+.team .title h2::after {
+  width: 75px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: -26%;
+  top: 60%;
+  position: absolute;
+  content: "";
+}
+.team .hidden{
+  bottom: -115px;
+  transition: bottom 1s ease;
+}
+.worker :hover + .hidden{
+  bottom: 0px;
+}
+
+.pricing .title h2 ::before {
+  width: 40px;
+  height: 3px;
+  background-color: #0c65ed;
+  right: -25%;
+  top: 40%;
+  position: absolute;
+  content: "";
+}
+.pricing .title h2 ::after {
+  width: 40px;
+  height: 3px;
+  background-color: #0c65ed;
+  left: -25%;
+  top: 40%;
+  position: absolute;
+  content: "";
+}
+.pricing .title h2::before {
+  width: 75px;
+  height: 2px;
+  background-color: #0c65ed;
+  right: -41%;
+  top: 60%;
+  position: absolute;
+  content: "";
+}
+.pricing .title h2::after {
+  width: 75px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: -41%;
+  top: 60%;
+  position: absolute;
+  content: "";
 }
