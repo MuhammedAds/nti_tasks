@@ -338,3 +338,215 @@ ul {
   position: absolute;
   content: "";
 }
+.card .personal::after{
+  width: 90px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: 39%;
+  bottom: -37%;
+  position: absolute;
+  content: "";
+}
+.testomonial .title h2 ::before {
+  width: 40px;
+  height: 3px;
+  background-color: #0c65ed;
+  right: -25%;
+  top: 40%;
+  position: absolute;
+  content: "";
+}
+.testomonial .title h2 ::after {
+  width: 40px;
+  height: 3px;
+  background-color: #0c65ed;
+  left: -25%;
+  top: 40%;
+  position: absolute;
+  content: "";
+}
+.testomonial .title h2::before {
+  width: 75px;
+  height: 2px;
+  background-color: #0c65ed;
+  right: -41%;
+  top: 60%;
+  position: absolute;
+  content: "";
+}
+.testomonial .title h2::after {
+  width: 75px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: -41%;
+  top: 60%;
+  position: absolute;
+  content: "";
+}
+.slick-content{
+  position: relative;
+}
+.slick-prev{
+  position: absolute;
+  bottom: 0px;
+  background: blue;
+  top: 305px;
+  width: 50px;
+  height: 33px;
+  border-radius: 16px 0px 0px 16px;
+  left: 540px;
+}
+.slick-prev:hover{
+   background: blue;
+}
+
+.slick-next{
+  position: absolute;
+  bottom: 0px;
+  background: blue;
+  top: 305px;
+  width: 50px;
+  height: 33px;
+  border-radius: 0px 16px 16px 0px;
+  left: 650px;
+}
+.slick-next:hover{
+      background: blue;
+}
+
+.blog .title h2 ::after {
+  width: 75px;
+  height: 1px;
+  background-color: #0c65ed;
+  left: -48%;
+  top: 60%;
+  position: absolute;
+  content: "";
+}
+.blog .title h2::before {
+  width: 75px;
+  height: 1px;
+  background-color: #0c65ed;
+  right: -48%;
+  top: 60%;
+  position: absolute;
+  content: "";
+}
+
+.blog .content h5::after {
+  width: 25%;
+  height: 2px;
+  background-color: #0c65ed;
+  left: 0%;
+  bottom: -12%;
+  position: absolute;
+  content: "";
+}
+.card-image{
+  transition: all 1s ease-in-out;
+}
+.card-all:hover .card-image{
+  transform: scale(1.1) rotate(-2deg);
+}
+.card-all:hover h5::after{
+  transition: all 1s ease-in-out;
+}
+.card-all:hover h5::after{
+  width: 90%;
+}
+.social{
+  background-color: #1a1a1a;
+  transition: all 1s ease-in-out;
+}
+.card-all:hover .social{
+  background: #0c65ed;
+}
+.arrow .fas{
+  padding-left: 15px;
+  transition: all 1s ease-in-out;
+}
+.arrow:hover > .fas{
+  padding-left: 35px;
+} 
+.clients .title h2 ::after {
+  width: 114px;
+  height: 2px;
+  background-color: #0c65ed;
+  right: -42%;
+  top: 60%;
+  position: absolute;
+  content: "";
+}
+.clients .title h2::after {
+  width: 75px;
+  height: 2px;
+  background-color: #0c65ed;
+  right: -30%;
+  top: 40%;
+  position: absolute;
+  content: "";
+}
+.client-image{
+  filter: drop-shadow(-11px 0 7px rgba(140,140,140,0.4));
+}
+.purchas .contact::after{
+  content: "\f2a0";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+  color: #ffffff78;
+  font-size: 98px;
+  left: 11%;
+  top: -7%;
+  position: absolute;
+  transform: rotate(-41deg);
+}
+.contact-info .contact h2::after{
+  width: 97px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: 0;
+  bottom: -11px;
+  position: absolute;
+  content: "";
+}
+.contact-info .posts h2::after{
+  width: 97px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: 0;
+  bottom: -11px;
+  position: absolute;
+  content: "";
+}
+.contact-info figure{
+  height: 80px;
+  width: 80px;
+}
+.contact-info .popular h2::after{
+  width: 97px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: 0;
+  bottom: -11px;
+  position: absolute;
+  content: "";
+}
+.popular a:hover{
+  background-color: #0c65ed;
+  color: white;
+}
+.top-arrow{
+  bottom: 50px;
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  display: flex;
+  line-height: 54px;
+  border-radius: 60px;
+}
+.gears{
+  top: 273px;
+  left: 3px;
+  z-index: 1000;
+}
