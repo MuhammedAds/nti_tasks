@@ -61,6 +61,24 @@ fetch('https://jsonplaceholder.typicode.com/todos')
     const titles = []
     if(item.id<=10){
       titles.push(item.title)
+      function newElement() {
+        var li = document.createElement("li");
+        var t = document.createTextNode(item.title);
+        li.appendChild(t);
+        document.getElementById("myUL").appendChild(li);
+        var span = document.createElement("SPAN");
+        var txt = document.createTextNode("\u00D7");
+        span.className = "close";
+        span.appendChild(txt);
+        li.appendChild(span);
+
+        for (i = 0; i < close.length; i++) {
+          close[i].onclick = function() {
+            var div = this.parentElement;
+            div.style.display = "none";
+          }
+        }
+}
+newElement()
     }
-    console.log(titles)
   }))
